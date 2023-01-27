@@ -15,6 +15,10 @@ import spring.mybatis.plus.account.demo.user.impl.infra.mybatisplus.UserMapper;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * todo move to web/config
+ */
 @SuppressWarnings("SpringJavaAutowiredFieldsWarningInspection")
 @Service
 @Transactional

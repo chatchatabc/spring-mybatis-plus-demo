@@ -9,6 +9,9 @@ import spring.mybatis.plus.account.demo.user.impl.domain.UserAlreadyExistAuthent
 import spring.mybatis.plus.account.demo.user.impl.infra.mybatisplus.UserMapper;
 
 
+/**
+ * todo renaming
+ */
 @SuppressWarnings("SpringJavaAutowiredFieldsWarningInspection")
 @Service
 @Transactional
