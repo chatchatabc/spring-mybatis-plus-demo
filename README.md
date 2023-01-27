@@ -27,11 +27,17 @@ Demo to showcase mybatis-plus, and teach how it works what are its functionaliti
     ```
  3. check application.properties in the `/src/main/resources` if the port on `spring.datasource.url` is the same as the port assigned on the docker container 
  4. Build then run the application (Automatically creates table needed to store data if it does not exist)
-    
+     
 ## Issues
 
 - Login page opens but logging in does not work
 - Registration page does not open, and cant determine if it works
+
+## Todo 
+
+- Remove out directory
+- Add customer xml mapper file for Mapper interface
+- Move `MyUserDetailsService.java` and `UserAlreadyExistAuthenticationException.java` to `web/config` package.
 
 ## References
  - https://www.baeldung.com/thymeleaf-in-spring-mvc
