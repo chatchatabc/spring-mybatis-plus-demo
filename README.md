@@ -38,6 +38,8 @@ Demo to showcase mybatis-plus, and teach how it works what are its functionaliti
 - Remove out directory
 - Add customer xml mapper file for Mapper interface
 - Move `MyUserDetailsService.java` and `UserAlreadyExistAuthenticationException.java` to `web/config` package.
+- Fix naming problem
+- DDD project standard structure and service/repository
 
 ## References
  - https://www.baeldung.com/thymeleaf-in-spring-mvc
